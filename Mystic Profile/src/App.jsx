@@ -32,7 +32,7 @@ function App() {
     tagline: 'DEVELOPER',
     bio: 'Crafting elegant code and building aesthetic digital experiences. Developer & Creator.',
     avatar: 'https://cdn.discordapp.com/icons/1355239538808848575/f629c7a5a0b472db7cbbf294a8ad732b.webp?size=1024',
-    banner: 'https://files.catbox.moe/3yic5r.png',
+    banner: 'https://cdn.discordapp.com/attachments/1355239539307843829/1507345581566333019/download_30.jfif?ex=6a119077&is=6a103ef7&hm=0eab3243624d2939a2ae80f33705493be71ec6c0a910d5974266572a138f2f18&',
     status: 'online',
     discord: 'https://discord.com/users/1312309380800057355',
     github: 'https://github.com/notmystic-only',
@@ -315,17 +315,17 @@ function App() {
             <AnimatePresence>
               {showDetails && (
                 <motion.div
-                  initial={{ width: 0, opacity: 0 }}
-                  animate={{ width: 624, opacity: 1 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
                   transition={{ duration: 1.0, type: "spring", bounce: 0.2 }}
                   style={{ overflow: 'visible', zIndex: 5 }}
+                  className="details-wrapper-motion"
                 >
                   <motion.div
                     className="details-column"
-                    initial={{ opacity: 0, x: -100, scale: 0.8 }}
+                    initial={{ opacity: 0, x: -50, scale: 0.9 }}
                     animate={{ opacity: 1, x: 0, scale: 1 }}
                     transition={{ duration: 1.0, type: "spring", bounce: 0.2, staggerChildren: 0.2 }}
-                    style={{ width: 600, marginLeft: 24 }}
                   >
                     <motion.div className="detail-card" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} whileHover={{ y: -8, scale: 1.03, transition: { delay: 0, type: "spring", stiffness: 600, damping: 20 } }}>
                       <div className="detail-header"><TbTrophy /> ACHIEVEMENTS</div>
