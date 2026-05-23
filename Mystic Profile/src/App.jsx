@@ -32,7 +32,7 @@ function App() {
     tagline: 'DEVELOPER',
     bio: 'Crafting elegant code and building aesthetic digital experiences. Developer & Creator.',
     avatar: 'https://cdn.discordapp.com/icons/1355239538808848575/f629c7a5a0b472db7cbbf294a8ad732b.webp?size=1024',
-    banner: 'https://cdn.discordapp.com/attachments/1355239539307843829/1507345581566333019/download_30.jfif?ex=6a119077&is=6a103ef7&hm=0eab3243624d2939a2ae80f33705493be71ec6c0a910d5974266572a138f2f18&',
+    banner: 'https://files.catbox.moe/3yic5r.png',
     status: 'online',
     discord: 'https://discord.com/users/1312309380800057355',
     github: 'https://github.com/notmystic-only',
